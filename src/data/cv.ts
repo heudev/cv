@@ -38,9 +38,8 @@ export const cvData: CVData = {
             type: "Remote",
             technologies: ["React", "Next.js", "Tailwind CSS"],
             description: [
-                "Cross-platform mobile app development using Flutter",
-                "Real-time data synchronization and analytics tracking with Firebase",
-                "Modern UI/UX design optimizing user experience"
+                "Professional team website development to showcase projects, updates, and sponsors.",
+                "User-friendly desktop interface development for rover control.",
             ]
         },
         {
@@ -50,9 +49,7 @@ export const cvData: CVData = {
             type: "Remote",
             technologies: ["React", "Next.js", "Tailwind CSS"],
             description: [
-                "Cross-platform mobile app development using Flutter",
-                "Real-time data synchronization and analytics tracking with Firebase",
-                "Modern UI/UX design optimizing user experience"
+                "Professional team website development to showcase projects, updates, and sponsors.",
             ]
         },
         {
@@ -60,11 +57,9 @@ export const cvData: CVData = {
             company: "Bimar IT Services - Arkas Holding",
             period: "Aug 2024 - Sep 2024",
             type: "Hybrid",
-            technologies: ["C#,", ".Net"],
+            technologies: ["C#", ".Net"],
             description: [
-                "Design and development of course scheduling system for university students",
-                "Setting up scalable infrastructure serving thousands of active users",
-                "Modern web interface development using Next.js, React, TypeScript and Tailwind CSS"
+                "Various projects related to the company's technology stack",
             ]
         },
     ],
