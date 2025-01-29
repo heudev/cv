@@ -44,17 +44,6 @@ export const cvData: CVData = {
             ]
         },
         {
-            title: "Web Developer",
-            company: "ECOWHEELS Electro Team",
-            companyUrl: "https://ecowheels.ieu.app",
-            period: "Mar 2023 - Present",
-            type: "Remote",
-            technologies: ["React", "Tailwind CSS"],
-            description: [
-                "Professional team website development to showcase projects, updates, and sponsors.",
-            ]
-        },
-        {
             title: "Software Engineer Internship",
             company: "Bimar IT Services - Arkas Holding",
             companyUrl: "https://www.bimar.com.tr",
