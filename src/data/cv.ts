@@ -3,9 +3,9 @@ import { CVData } from '@/types/cv';
 export const cvData: CVData = {
     personalInfo: {
         name: "Hulki Enes Uysal",
-        title: "Full-Stack Software Developer",
+        title: "Full-Stack Engineer",
         location: "İzmir, Türkiye",
-        about: "Full Stack Software Developer specialized in modern web technologies. Deep knowledge in React, Node.js, and cloud technologies. A software engineer focused on developing useful projects for university students, continuously learning and improving. Experienced in team leadership and technical architecture design.",
+        about: "Highly motivated software engineer with over 3 years of experience in designing, developing, and optimizing innovative software solutions. Skilled in building scalable, efficient, and user-centric applications that address real-world challenges. Adept at problem-solving, software architecture, and ensuring maintainability, security, and performance. Committed to continuous learning, staying up-to-date with industry trends, and adapting to evolving technologies. Experienced in collaborating with cross-functional teams and contributing to the full software development lifecycle, from initial concept to deployment and beyond.",
         image: "https://enes.run/_next/image?url=%2Fimages%2Fprofile%2Fenes1.jpg&w=3840&q=75"
     },
     socialLinks: [
@@ -34,27 +34,30 @@ export const cvData: CVData = {
         {
             title: "Software Developer",
             company: "ECO - ROVER",
+            companyUrl: "https://ecorover.ieu.app",
             period: "Oct 2024 - Present",
             type: "Remote",
-            technologies: ["React", "Next.js", "Tailwind CSS"],
+            technologies: ["React", "Next.js", "Tailwind CSS", "Electron"],
             description: [
                 "Professional team website development to showcase projects, updates, and sponsors.",
-                "User-friendly desktop interface development for rover control.",
+                "Rover Dashboard displays real-time rover telemetry data.",
             ]
         },
         {
             title: "Web Developer",
             company: "ECOWHEELS Electro Team",
+            companyUrl: "https://ecowheels.ieu.app",
             period: "Mar 2023 - Present",
             type: "Remote",
-            technologies: ["React", "Next.js", "Tailwind CSS"],
+            technologies: ["React", "Tailwind CSS"],
             description: [
                 "Professional team website development to showcase projects, updates, and sponsors.",
             ]
         },
         {
-            title: "Software Developer Internship",
+            title: "Software Engineer Internship",
             company: "Bimar IT Services - Arkas Holding",
+            companyUrl: "https://www.bimar.com.tr",
             period: "Aug 2024 - Sep 2024",
             type: "Hybrid",
             technologies: ["C#", ".Net"],
@@ -66,7 +69,7 @@ export const cvData: CVData = {
     education: [
         {
             school: "Izmir University of Economics",
-            degree: "Computer Engineering",
+            degree: "Bachelor's Degree in Computer Engineering",
             period: "2021 - Present"
         }
     ],
@@ -74,16 +77,18 @@ export const cvData: CVData = {
         { name: "JavaScript" },
         { name: "TypeScript" },
         { name: "React" },
+        { name: "React Native" },
         { name: "Next.js" },
-        { name: "Tailwind CSS" },
-        { name: "Electron" },
         { name: "Node.js" },
         { name: "Express" },
         { name: "MongoDB" },
         { name: "Firebase" },
-        { name: "Selenium" },
+        { name: "GCP" },
         { name: "Git" },
-        { name: "Docker" }
+        { name: "Docker" },
+        { name: "Tailwind CSS" },
+        { name: "Electron" },
+        { name: "Selenium" }
     ],
     languages: [
         {
@@ -96,6 +101,27 @@ export const cvData: CVData = {
         },
     ],
     projects: [
+        {
+            name: "EcoRover Dashboard",
+            date: "January 2025",
+            description: "Rover Dashboard displays real-time rover telemetry data.",
+            technologies: ["React", "Electron"],
+            url: "https://ecorover-dashboard.ieu.app"
+        },
+        {
+            name: "EKOGÇ",
+            date: "January 2025",
+            description: "A three-day program where young people shape the future through discussions on key issues.",
+            technologies: ["Next.js", "Tailwind"],
+            url: "https://ekogc.ieu.app"
+        },
+        {
+            name: "Mediverse",
+            date: "January 2025",
+            description: "An innovative congress for medical students and healthcare professionals.",
+            technologies: ["Next.js", "Tailwind"],
+            url: "https://mediverse.ieu.app"
+        },
         {
             name: "EcoRover",
             date: "November 2024",
@@ -115,7 +141,7 @@ export const cvData: CVData = {
             date: "August 2024",
             description: "API service that tracks university announcements and shares them via Telegram.",
             technologies: ["Node.js", "Express", "Docker"],
-            url: "https://announcements.ieu.app/"
+            url: "https://announcements.ieu.app"
         },
         {
             name: "IEU Course Analysis",
@@ -129,7 +155,7 @@ export const cvData: CVData = {
             date: "January 2024",
             description: "Web application tracking the status of campus cats and food units.",
             technologies: ["React", "Firebase", "Material UI"],
-            url: "https://ieuhsk.vercel.app/"
+            url: "https://ieuhsk.vercel.app"
         },
         {
             name: "IEU Timetable",
@@ -157,7 +183,7 @@ export const cvData: CVData = {
             date: "September 2020",
             description: "Interactive web application visually displaying guitar scales.",
             technologies: ["JavaScript", "Bootstrap"],
-            url: "https://downpicking.enes.run/"
+            url: "https://downpicking.enes.run"
         },
         {
             name: "DISTANGER FTP",

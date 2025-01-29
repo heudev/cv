@@ -14,11 +14,24 @@ export function Experience({ experiences }: ExperienceProps) {
                     <div key={index}>
                         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                             <div>
-                                <h3 className="font-semibold text-zinc-900">{exp.company}</h3>
-                                <p className="text-zinc-600">{exp.title}
+                                <h3 className="font-semibold text-zinc-900">{exp.title}
                                     <span className="ml-2 px-2 py-1 text-xs text-zinc-500 bg-white rounded">
                                         {exp.type}
                                     </span>
+                                </h3>
+                                <p className="text-zinc-600 text-sm">
+                                    {exp.companyUrl ? (
+                                        <a
+                                            href={exp.companyUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="hover:text-zinc-800 hover:underline transition-colors"
+                                        >
+                                            {exp.company}
+                                        </a>
+                                    ) : (
+                                        exp.company
+                                    )}
                                 </p>
                                 <div className="block sm:hidden text-sm text-zinc-500 font-mono mt-1">{exp.period}</div>
                                 <div className="flex flex-wrap gap-2 mt-1">

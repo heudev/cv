@@ -15,6 +15,7 @@ export interface SocialLink {
 export interface Experience {
     title: string;
     company: string;
+    companyUrl?: string;
     period: string;
     type: string;
     technologies: string[];
