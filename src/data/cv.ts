@@ -15,11 +15,6 @@ export const cvData: CVData = {
             icon: "FaGlobe"
         },
         {
-            platform: "Email",
-            url: "mailto:hulkienesuysal@gmail.com",
-            icon: "SiGmail"
-        },
-        {
             platform: "GitHub",
             url: "https://github.enes.run",
             icon: "FaGithub"
@@ -28,7 +23,12 @@ export const cvData: CVData = {
             platform: "LinkedIn",
             url: "https://linkedin.enes.run",
             icon: "FaLinkedin"
-        }
+        },
+        {
+            platform: "Email",
+            url: "mailto:hulkienesuysal@gmail.com",
+            icon: "SiGmail"
+        },
     ],
     experiences: [
         {
