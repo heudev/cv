@@ -19,7 +19,7 @@ interface HeaderProps {
 export function Header({ personalInfo, socialLinks }: HeaderProps) {
     return (
         <header>
-            <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-8">
+            <div className="flex flex-col md:flex-row justify-between items-start gap-4 md:gap-8">
                 <div className="flex items-center gap-4 md:gap-8">
                     <div>
                         <Image

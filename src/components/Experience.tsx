@@ -33,7 +33,7 @@ export function Experience({ experiences }: ExperienceProps) {
                                         exp.company
                                     )}
                                 </p>
-                                <div className="block sm:hidden text-sm text-zinc-500 font-mono mt-1">{exp.period}</div>
+                                <div className="block sm:hidden text-xs text-zinc-500 mt-1">{exp.period}</div>
                                 <div className="flex flex-wrap gap-2 mt-1">
                                     {exp.technologies.map((tech, i) => (
                                         <span key={i} className="px-2 py-1 text-xs bg-zinc-100 text-zinc-600 rounded">
@@ -42,7 +42,7 @@ export function Experience({ experiences }: ExperienceProps) {
                                     ))}
                                 </div>
                             </div>
-                            <div className="hidden sm:block text-sm text-zinc-500 font-mono">{exp.period}</div>
+                            <div className="hidden sm:block text-sm text-zinc-500">{exp.period}</div>
                         </div>
                         <ul className="list-disc list-inside text-zinc-600 space-y-1 mt-2">
                             {exp.description.map((desc, i) => (

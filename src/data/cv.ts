@@ -116,6 +116,13 @@ export const cvData: CVData = {
             url: "https://ekogc.ieu.app"
         },
         {
+            name: "IEU EduAnalyzer",
+            date: "January 2025",
+            description: "An innovative platform that simplifies course analysis and strengthens academic planning.",
+            technologies: ["React", "Firebase"],
+            url: "https://eduanalyzer.ieu.app"
+        },
+        {
             name: "Mediverse",
             date: "January 2025",
             description: "An innovative congress for medical students and healthcare professionals.",

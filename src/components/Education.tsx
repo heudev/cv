@@ -14,9 +14,9 @@ export function Education({ education }: EducationProps) {
                     <div>
                         <h3 className="font-semibold text-zinc-900">{edu.school}</h3>
                         <p className="text-zinc-600 text-sm">{edu.degree}</p>
-                        <div className="block sm:hidden text-sm text-zinc-500 font-mono mt-1">{edu.period}</div>
+                        <div className="block sm:hidden text-xs text-zinc-500 font-mono mt-1">{edu.period}</div>
                     </div>
-                    <div className="hidden sm:block text-sm text-zinc-500 font-mono">{edu.period}</div>
+                    <div className="hidden sm:block text-sm text-zinc-500">{edu.period}</div>
                 </div>
             ))}
         </section>
