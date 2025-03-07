@@ -95,7 +95,7 @@ export const cvData: CVData = {
             date: "January 2025",
             description: "Rover Dashboard displays real-time rover telemetry data.",
             technologies: ["React", "Electron"],
-            url: "https://ecorover-dashboard.ieu.app"
+            url: "https://dashboard.ecorover.ieu.app"
         },
         {
             name: "EKOGÇ",
